@@ -1,0 +1,6 @@
+/node_modules
+/build
+replit.nix
+.replit
+/logs
+.env
