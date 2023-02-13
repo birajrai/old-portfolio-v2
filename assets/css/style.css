@@ -1,13 +1,12 @@
-:root {
-    --red: red;
+* {
+    background: url(../img/aa.gif);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: auto;
 }
 
-a {
-    text-decoration: none;
-    color: var(--red);
-}
+
 
 nav {
     text-align: center;
-    border-style: dotted;
 }

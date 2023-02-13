@@ -1,0 +1,21 @@
+button {
+    background: url(../img/particles.gif);
+    text-decoration: none;
+    text-shadow: #ee82ee 1px 1px 10px;
+    border: none;
+}
+
+button a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+button:before {
+    padding-right: 1px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
