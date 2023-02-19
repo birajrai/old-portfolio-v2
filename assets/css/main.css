@@ -17,5 +17,8 @@ button:before {
 }
 
 a {
+    color: black;
+    font-weight: bold;
+    font-family: Poppins;
     text-decoration: none;
 }
