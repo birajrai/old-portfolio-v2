@@ -1,15 +1,2 @@
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-
-* {
-    background: url(../img/aa.gif);
-    background-repeat: no-repeat;
-    background-position: 0%;
-    background-size: auto;
-}
-
-
-
-nav {
-    text-align: center;
-}

@@ -24,17 +24,33 @@ a {
 }
 
 .discord-ai {
+    background: url(../img/particles.gif);
+    text-decoration: none;
+    text-shadow: #ee82ee 1px 1px 10px;
+    border: none;
     color: blue;
 }
 
 .youtube-ai {
+    background: url(../img/particles.gif);
+    text-decoration: none;
+    text-shadow: #ee82ee 1px 1px 10px;
+    border: none;
     color: red;
 }
 
 .facebook-ai {
+    background: url(../img/particles.gif);
+    text-decoration: none;
+    text-shadow: #ee82ee 1px 1px 10px;
+    border: none;
     color: blue;
 }
 
 .ihalloween-ai {
+    background: url(../img/particles.gif);
+    text-decoration: none;
+    text-shadow: #ee82ee 1px 1px 10px;
+    border: none;
     color: orange;
 }
