@@ -2,7 +2,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333; /* Add a background color to the navigation bar */
   color: #fff; /* Set the font color to white */
   padding: 1rem;
 }
@@ -31,7 +30,6 @@ nav ul ul {
   left: 0; /* Change the position to the left */
   width: 100%; /* Set the width to the full width of the navigation bar */
   transition: transform 0.3s ease;
-  background-color: #444; /* Add a background color to the dropdown menu */
 }
 
 nav ul ul li {
