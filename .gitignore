@@ -4,3 +4,5 @@ replit.nix
 .replit
 /logs
 .env
+/bin/node_modules
+/bin/package-lock.json
