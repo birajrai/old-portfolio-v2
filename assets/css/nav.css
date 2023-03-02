@@ -2,7 +2,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff; /* Set the font color to white */
+  color: black;
+  /* Set the font color to white */
   padding: 1rem;
 }
 
@@ -19,16 +20,19 @@ nav li {
 
 nav a {
   padding: 1em;
-  display: block; /* Make the link take up the full width of the list item */
-  color: #fff;
+  display: block;
+  /* Make the link take up the full width of the list item */
+  color: black;
   text-decoration: none;
 }
 
 nav ul ul {
   position: absolute;
   top: 100%;
-  left: 0; /* Change the position to the left */
-  width: 100%; /* Set the width to the full width of the navigation bar */
+  left: 0;
+  /* Change the position to the left */
+  width: 100%;
+  /* Set the width to the full width of the navigation bar */
   transition: transform 0.3s ease;
 }
 
@@ -53,21 +57,26 @@ nav ul ul a {
     width: 100%;
     display: none;
     flex-direction: column;
-    align-items: center; /* Center the links vertically */
-    justify-content: center; /* Center the links horizontally */
-    margin-top: 1rem; /* Add some spacing at the top */
+    align-items: center;
+    /* Center the links vertically */
+    justify-content: center;
+    /* Center the links horizontally */
+    margin-top: 1rem;
+    /* Add some spacing at the top */
   }
 
   nav li {
     width: 100%;
     text-align: center;
-    margin-bottom: 0.5rem; /* Add some spacing between the list items */
+    margin-bottom: 0.5rem;
+    /* Add some spacing between the list items */
   }
 
   .toggle-nav {
     display: block;
     order: 1;
-    font-size: 1.5rem; /* Increase the font size of the icon */
+    font-size: 1.5rem;
+    /* Increase the font size of the icon */
     cursor: pointer;
   }
 
@@ -76,14 +85,15 @@ nav ul ul a {
   }
 
   nav ul.show ul {
-    transform: translateY(0); /* Change the transform to translateY */
+    transform: translateY(0);
+    /* Change the transform to translateY */
   }
 
   .toggle-nav i:before {
     content: '\f0c9';
   }
 
-  nav ul.show + .toggle-nav i:before {
+  nav ul.show+.toggle-nav i:before {
     content: '\f00d';
   }
 }
