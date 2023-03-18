@@ -1,4 +1,5 @@
 /node_modules
+/todo
 /build
 replit.nix
 .replit

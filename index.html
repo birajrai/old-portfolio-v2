@@ -4,92 +4,1134 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png" />
-        <meta name="theme-color" id="color-theme" content="#262F41" />
-        <meta name="og:image" content="/assets/img/preview.gif" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@birajx2" />
-        <meta name="twitter:creator" content="@birajx2" />
-        <meta property="og:url" content="https://www.birajrai.github.io/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image:width" content="1280" />
-        <meta property="og:image:height" content="640" />
-        <meta property="og:site_name" content="Biraj Rai" />
+        <link rel="stylesheet" href="assets/dist/animate.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="assets/dist/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/dist/super-classes.min.css" />
+        <link rel="stylesheet" href="assets/dist/style.min.css" />
+        <link rel="stylesheet" href="assets/dist/mobile.min.css" />
         <title>Biraj Rai</title>
-        <link rel="stylesheet" href="/assets/css/custom.css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
     </head>
 
-    <body class="bg-slate-100 p-4">
-        <main class="mx-auto">
-            <div class="rounded-xl p-8">
-                <img
-                    class="w-24 h-24 rounded-full mx-auto"
-                    src="https://avatars.githubusercontent.com/u/70630924"
-                    alt=""
-                    width="384"
-                    height="512"
-                />
-                <div class="pt-6 text-center space-y-4">
-                    <figcaption class="font-medium">
-                        <div class="text-sky-500">Biraj Rai</div>
-                        <div class="text-slate-700">Hetauda, Nepal</div>
-                    </figcaption>
-                    <blockquote>
-                        <p class="text-lg font-medium">
-                            Hi, my name is Biraj and I go by the name Neppixel on the internet.
-                        </p>
-                        <p class="text-lg font-medium">
-                            I'm a full-stack developer with over 5 years of experience, and I've worked as a Minecraft
-                            server admin in the past.
-                        </p>
-                        <p class="text-lg font-medium">
-                            Throughout my career, I've gained extensive experience in developing web applications using
-                            a variety of technologies, including front-end frameworks like React and Angular, as well as
-                            back-end technologies like Node.js and Ruby on Rails.
-                        </p>
-                        <p class="text-lg font-medium">
-                            When I'm not coding, you can find me playing Minecraft and exploring new worlds. I also
-                            enjoy reading and watching science fiction movies.
-                        </p>
-                        <p class="text-lg font-medium">
-                            If you're interested in working with me or learning more about my experience, please don't
-                            hesitate to get in touch!
-                        </p>
-                    </blockquote>
-                </div>
-                <div class="flex justify-center">
-                    <ul>
-                        <li>
-                            <a class="hb discord-ai" href="https://discord.gg/942CAPVQ7w">
-                                <i class="fa-brands fa-discord discord-ai"></i> Discord</a
-                            >
-                        </li>
-                        <li>
-                            <a class="hb youtube-ai" href="https://youtube.com/@neppixel">
-                                <i class="fa-brands fa-youtube youtube-ai"></i> Youtube</a
-                            >
-                        </li>
-                        <li>
-                            <a class="hb facebook-ai" href="https://facebook.com/birajx2">
-                                <i class="fa-brands fa-facebook facebook-ai"></i> Facebook</a
-                            >
-                        </li>
-                        <li>
-                            <a class="hb ihalloween-ai" href="https://ihalloween.ml/members/neppixel.1/">
-                                <i class="fa-solid fa-diamond ihalloween-ai"></i> iHalloween</a
-                            >
-                        </li>
-                    </ul>
+    <body>
+        <div class="header-and-banner-con w-100 float-left position-relative">
+            <div class="header-and-banner-inner-con">
+                <header class="main-header">
+                    <div class="container pl-0 pr-0">
+                        <div class="header-con">
+                            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                                <a class="navbar-brand p-0" href="/">
+                                    <img src="assets/img/logo/logo.svg" alt="logo-img" class="img-fluid" />
+                                </a>
+                                <button
+                                    class="navbar-toggler p-0 collapsed"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation"
+                                >
+                                    <span class="navbar-toggler-icon"></span>
+                                    <span class="navbar-toggler-icon"></span>
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active pl-0">
+                                            <a class="nav-link p-0 is-active" href="/"
+                                                >Home<span class="sr-only">(current)</span></a
+                                            >
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-0" href="#services">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-0" href="#about">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-0" href="#portfolio">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-0" href="#testimonials">Testimonials</a>
+                                        </li>
+                                    </ul>
+                                    <div class="d-inline-block contact">
+                                        <a href="#contact">Contact</a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--navbar-end-->
+                </header>
+                <section class="banner-main-con" id="home">
+                    <div class="container pl-0 pr-0">
+                        <!--banner-start-->
+                        <div class="footer-social-icon banner-social-icon mb-0">
+                            <ul class="mb-0 list-unstyled">
+                                <li class="">
+                                    <a href="https://discord.gg/YwAk4pWSa2"
+                                        ><i class="fab fa-discord d-flex align-items-center justify-content-center"></i
+                                    ></a>
+                                </li>
+                                <li class="mt-3 mb-3">
+                                    <a href="https://facebook.com/birajx2"
+                                        ><i
+                                            class="fab fa-facebook d-flex align-items-center justify-content-center ml-0 mr-0"
+                                        ></i
+                                    ></a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.youtube.com/@neppixel"
+                                        ><i class="fab fa-youtube d-flex align-items-center justify-content-center"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="banner-con text-lg-left text-center">
+                            <div class="row">
+                                <div class="col-lg-7 col-sm-12 d-flex justify-content-center flex-column">
+                                    <div class="banner-left-con wow slideInLeft">
+                                        <div class="banner-heading">
+                                            <h2>Hello, I Am</h2>
+                                            <ul class="dynamic-txts">
+                                                <li>
+                                                    <h1>Biraj Rai</h1>
+                                                </li>
+                                                <li>
+                                                    <h1>Biraj Rai</h1>
+                                                </li>
+                                                <li>
+                                                    <h1>Biraj Rai</h1>
+                                                </li>
+                                                <li>
+                                                    <h1>Biraj Rai</h1>
+                                                </li>
+                                            </ul>
+                                            <p>
+                                                Despite my young age of 16, I am a skilled full-stack developer with<br />
+                                                over 5 years of experience.
+                                            </p>
+                                        </div>
+                                        <div class="banner-btn generic-btn d-inline-block">
+                                            <a href="#contact">Hire Me</a>
+                                        </div>
+                                        <a href="#portfolio" class="See-btn">See My Work</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-sm-12">
+                                    <div
+                                        class="banner-right-con position-relative wow slideInRight"
+                                        id="banner-right-con"
+                                    >
+                                        <figure class="mb-0">
+                                            <img
+                                                src="assets/img/banner-right-img.png"
+                                                alt="banner-right-img"
+                                                id="banner-right-img"
+                                            />
+                                        </figure>
+                                        <div
+                                            class="best-award-con d-inline-block wow bounceInUp"
+                                            data-wow-duration="1s"
+                                            data-wow-delay="1s"
+                                        >
+                                            <div class="best-award-inner-con">
+                                                <figure class="mb-0">
+                                                    <img src="assets/img/cup-img.png" alt="cup-img" class="img-fluid" />
+                                                </figure>
+                                                <div class="best-award-title">
+                                                    <p class="mb-0">
+                                                        Best Design<br />
+                                                        Award.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="best-award-con d-inline-block happy-con wow bounceInUp"
+                                            data-wow-duration="1s"
+                                            data-wow-delay="1s"
+                                        >
+                                            <div class="best-award-inner-con text-center">
+                                                <figure>
+                                                    <img
+                                                        src="assets/img/admin-icon.png"
+                                                        alt="admin-icon"
+                                                        class="img-fluid"
+                                                    />
+                                                </figure>
+                                                <div class="best-award-title d-inline-block ml-0">
+                                                    <p class="mb-0 d-inline-block count">4</p>
+                                                    <p class="mb-0 d-inline-block">k+</p>
+                                                    <span class="d-block"
+                                                        >Happy<br />
+                                                        Customers</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cursor"></div>
+                                        <div class="cursor2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--banner-end-->
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- service section -->
+        <section class="w-100 float-left service padding-top padding-bottom position-relative" id="services">
+            <div class="container">
+                <div class="service-inner-con position-relative">
+                    <div class="generic-title text-center">
+                        <h6>My Expertise</h6>
+                        <h2 class="mb-0">
+                            Provide Wide Range of<br />
+                            Digital Services
+                        </h2>
+                    </div>
+                    <div class="service-box wow fadeInUp">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="service-box-item">
+                                    <figure class="mb-0">
+                                        <img src="assets/img/service-icon1.png" alt="service-icon" class="img-fluid" />
+                                    </figure>
+                                    <div class="service-box-item-content">
+                                        <h4>Ui/Ux Design</h4>
+                                        <p>
+                                            Dolor repellendus temporibus autem quibusdam officiis debitis rerum neces
+                                            aibus minima veniam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="service-box-item">
+                                    <figure class="mb-0">
+                                        <img src="assets/img/service-icon2.png" alt="service-icon" class="img-fluid" />
+                                    </figure>
+                                    <div class="service-box-item-content">
+                                        <h4>Web Design</h4>
+                                        <p>
+                                            Dolor repellendus temporibus autem quibusdam officiis debitis rerum neces
+                                            aibus minima veniam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-0">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="service-box-item">
+                                    <figure class="mb-0">
+                                        <img src="assets/img/service-icon3.png" alt="service-icon" class="img-fluid" />
+                                    </figure>
+                                    <div class="service-box-item-content">
+                                        <h4>Web Development</h4>
+                                        <p>
+                                            Dolor repellendus temporibus autem quibusdam officiis debitis rerum neces
+                                            aibus minima veniam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="service-box-item mb-0">
+                                    <figure class="mb-0">
+                                        <img src="assets/img/service-icon4.png" alt="service-icon" class="img-fluid" />
+                                    </figure>
+                                    <div class="service-box-item-content">
+                                        <h4>App Development</h4>
+                                        <p>
+                                            Dolor repellendus temporibus autem quibusdam officiis debitis rerum neces
+                                            aibus minima veniam.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </main>
-        <footer>
-            <div class="flex justify-center">
-                <p class="font-mono">Copyright &copy; Neppixel 2018-2023</p>
+        </section>
+        <!-- service section -->
+        <!-- skill section -->
+        <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about">
+            <div class="container">
+                <div class="skill-inner-con position-relative">
+                    <div class="row">
+                        <div class="col-lg-6 order-lg-0 order-2">
+                            <div class="skill-left-con text-center wow slideInLeft">
+                                <div class="row service-skill-sttaf-con">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                        <div class="skill-left-item-con">
+                                            <div class="circle-wrap firstPercentage">
+                                                <div class="circle">
+                                                    <div class="mask full">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="mask half">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="inside-circle">
+                                                        <div class="service-skill-sttaf-item-con">
+                                                            <div
+                                                                class="service-skill-sttaf-item-title service-skill-sttaf-item1-con d-flex align-items-center justify-content-center"
+                                                            >
+                                                                <h4
+                                                                    class="d-table-cell align-middle mb-0 text-center count"
+                                                                >
+                                                                    75
+                                                                </h4>
+                                                                <span class="static-txt2">%</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-skill-sttaf-item-heading">
+                                                <p class="mb-0">Frontend</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                        <div class="skill-left-item-con">
+                                            <div class="circle-wrap secondPercentage">
+                                                <div class="circle">
+                                                    <div class="mask full">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="mask half">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="inside-circle">
+                                                        <div class="service-skill-sttaf-item-con">
+                                                            <div
+                                                                class="service-skill-sttaf-item-title service-skill-sttaf-item2-con text-center d-flex align-items-center justify-content-center"
+                                                            >
+                                                                <h4 class="mb-0 text-center count">95</h4>
+                                                                <span class="static-txt2">%</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-skill-sttaf-item-heading">
+                                                <p class="mb-0">Web Development</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row service-skill-sttaf-con">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                        <div class="skill-left-item-con">
+                                            <div class="circle-wrap thirdPercentage">
+                                                <div class="circle">
+                                                    <div class="mask full">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="mask half">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="inside-circle">
+                                                        <div class="service-skill-sttaf-item-con">
+                                                            <div
+                                                                class="service-skill-sttaf-item-title service-skill-sttaf-item1-con d-flex align-items-center justify-content-center"
+                                                            >
+                                                                <h4
+                                                                    class="d-table-cell align-middle mb-0 text-center count"
+                                                                >
+                                                                    85
+                                                                </h4>
+                                                                <span class="static-txt2">%</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-skill-sttaf-item-heading">
+                                                <p class="mb-0">Backend</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                        <div class="skill-left-item-con">
+                                            <div class="circle-wrap fourPercentage">
+                                                <div class="circle">
+                                                    <div class="mask full">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="mask half">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="inside-circle">
+                                                        <div class="service-skill-sttaf-item-con">
+                                                            <div
+                                                                class="service-skill-sttaf-item-title service-skill-sttaf-item2-con text-center d-flex align-items-center justify-content-center"
+                                                            >
+                                                                <h4 class="mb-0 text-center count">80</h4>
+                                                                <span class="static-txt2">%</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="service-skill-sttaf-item-heading">
+                                                <p class="mb-0">Web Designing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <div class="skill-right-con wow slideInRight">
+                                <h6>My Skills</h6>
+                                <h2>Beautiful & Unique Digital Experiences</h2>
+                                <p>
+                                    Being a full-stack developer can be a rewarding career, and coding can be a fun and
+                                    engaging activity. Minecraft can also be a fun game to play, and it's great that you
+                                    have found a way to incorporate it into your work routine.
+                                </p>
+                                <p>
+                                    Additionally, helping and receiving help from friends can be a great way to learn
+                                    and grow as a developer. Collaborating with others can lead to new ideas and
+                                    approaches that you may not have considered on your own.
+                                </p>
+                                <p>
+                                    It's important to remember to balance your work and leisure time, and to make sure
+                                    you're not neglecting any important responsibilities or tasks. But if you enjoy
+                                    coding, playing games like Minecraft, and collaborating with friends, then it's
+                                    great that you're able to find ways to do all of those things together.
+                                </p>
+                                <div class="generic-btn download-bnt">
+                                    <a href="#" id="downloadImg" onclick="downloadImage()">Download CV</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </footer>
-        <script src="/assets/js/script.js"></script>
+        </section>
+        <!-- skill section -->
+        <!-- portfolio section -->
+        <section class="w-100 float-left portfolio padding-top" id="portfolio">
+            <div class="container">
+                <div class="generic-title text-center">
+                    <h6 class="text-white">Creative Works</h6>
+                    <h2 class="mb-0 text-white">Check My Portfolio</h2>
+                </div>
+                <div id="myBtnContainer" class="text-center">
+                    <button class="active active_button" onclick="filterSelection('all')">All</button>
+                    <button class="" onclick="filterSelection('mc-dev')">Minecraft Development</button>
+                    <button class="" onclick="filterSelection('web-dev')">Web Development</button>
+                </div>
+            </div>
+        </section>
+        <section class="w-100 float-left portfolio-body-con">
+            <div class="container">
+                <div class="portfolio-img-con position-relative w-100 float-left wow fadeInUp">
+                    <div class="filterDiv mc-dev position-relative">
+                        <a href="#" data-toggle="modal" data-target="#modalWPWAF">
+                            <div class="portfolio-img position-relative">
+                                <figure>
+                                    <img src="assets/img/portfolio-img1.png" alt="portfolio-img1" class="img-fluid" />
+                                </figure>
+                            </div>
+                        </a>
+                        <div class="portfolio-img-content text-left">
+                            <div class="portfolio-img-title d-inline-block">
+                                <h4>Kira</h4>
+                                <p>A spigot plugin that helps staff with better quality of some life changes</p>
+                            </div>
+                            <a href="#" class="float-lg-right" data-toggle="modal" data-target="#modalWPWAF-icon">
+                                <i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="filterDiv colors mc-dev position-relative">
+                        <a href="#" data-toggle="modal" data-target="#modalporfolio2">
+                            <div class="portfolio-img position-relative">
+                                <figure>
+                                    <img src="assets/img/portfolio-img2.png" alt="portfolio-img1" class="img-fluid" />
+                                </figure>
+                            </div>
+                        </a>
+                        <div class="portfolio-img-content text-left">
+                            <div class="portfolio-img-title d-inline-block">
+                                <h4>BetterUhc</h4>
+                                <p>Automates UHC games on a dedicated 1.8 - 1.18 server.</p>
+                            </div>
+                            <a href="#" class="float-lg-right" data-toggle="modal" data-target="#modalporfolio2-icon">
+                                <i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="filterDiv web-dev position-relative">
+                        <a href="#" data-toggle="modal" data-target="#modalporfolio3">
+                            <div class="portfolio-img position-relative">
+                                <figure>
+                                    <img src="assets/img/portfolio-img3.png" alt="portfolio-img1" class="img-fluid" />
+                                </figure>
+                            </div>
+                        </a>
+                        <div class="portfolio-img-content text-left">
+                            <div class="portfolio-img-title d-inline-block">
+                                <h4>Platex</h4>
+                                <p>Place where you can watch free web-series.</p>
+                            </div>
+                            <a
+                                href="https://platex.tk"
+                                class="float-lg-right"
+                                data-toggle="modal"
+                                data-target="#modalporfolio3-icon"
+                                ><i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="filterDiv web-dev position-relative">
+                        <a href="#" data-toggle="modal" data-target="#modalporfolio4">
+                            <div class="portfolio-img position-relative">
+                                <figure>
+                                    <img src="assets/img/portfolio-img4.png" alt="portfolio-img1" class="img-fluid" />
+                                </figure>
+                            </div>
+                        </a>
+                        <div class="portfolio-img-content text-left">
+                            <div class="portfolio-img-title d-inline-block">
+                                <h4>Imagizer</h4>
+                                <p>Simple Image Content Delivery Network made in NodeJS</p>
+                            </div>
+                            <a
+                                href="https://github.com/birajrai/imagizer"
+                                class="float-lg-right"
+                                data-toggle="modal"
+                                data-target="#modalporfolio4-icon"
+                                ><i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="filterDiv web-dev position-relative">
+                        <a href="#" data-toggle="modal" data-target="#modalporfolio5">
+                            <div class="portfolio-img position-relative">
+                                <figure>
+                                    <img src="assets/img/portfolio-img5.png" alt="portfolio-img1" class="img-fluid" />
+                                </figure>
+                            </div>
+                        </a>
+                        <div class="portfolio-img-content text-left">
+                            <div class="portfolio-img-title d-inline-block">
+                                <h4>Text Generator</h4>
+                                <p>
+                                    Generate cool text what can be used on Youtube, Twitter, Instagram, Discord and
+                                    more!
+                                </p>
+                            </div>
+                            <a
+                                href="https://github.com/birajrai/text-generator"
+                                class="float-lg-right"
+                                data-toggle="modal"
+                                data-target="#modalporfolio5-icon"
+                                ><i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- portfolio section -->
+        <!-- tastimonials section -->
+        <section
+            class="w-100 float-left padding-top padding-bottom tastimonials-con position-relative text-lg-left text-center"
+            id="testimonials"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="tastimonials-left-con wow slideInLeft">
+                            <figure class="mb-0">
+                                <img src="assets/img/tastimonials-img.png" alt="tastimonials-img" class="img-fluid" />
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div id="carouselExampleControls" class="carousel slide wow slideInRight" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="testimonials-content">
+                                        <h6>Testimonials</h6>
+                                        <h2>Happy Clients Feedback</h2>
+                                        <figure class="mb-0"></figure>
+                                        <div class="testimonials-inner-content">
+                                            <p>
+                                                I don't know you very well, but I must say that you are nice and always
+                                                try your best to make people happy. Your responses are informative and
+                                                helpful, and your friendly and professional demeanor makes it easy to
+                                                ask questions and seek assistance. Keep up the good work!
+                                            </p>
+                                            <br />
+                                            <img
+                                                style="border-radius: 100%; width: 90px; height: 90px"
+                                                src="assets/img/clients/deveep.webp"
+                                                alt="comma-icon"
+                                                class="img-fluid"
+                                            />
+                                            <span class="d-block auther-name">Deveep</span>
+                                            <span class="d-block">CEO of Binorix</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonials-content">
+                                        <h6>Testimonials</h6>
+                                        <h2>Happy Clients Feedback</h2>
+                                        <figure class="mb-0"></figure>
+                                        <div class="testimonials-inner-content">
+                                            <p>
+                                                I don't know you very well, but I must say that you are nice and always
+                                                try your best to make people happy. Your responses are informative and
+                                                helpful, and your friendly and professional demeanor makes it easy to
+                                                ask questions and seek assistance. Keep up the good work!
+                                            </p>
+                                            <br />
+                                            <img
+                                                style="border-radius: 100%; width: 90px; height: 90px"
+                                                src="assets/img/clients/deveep.webp"
+                                                alt="comma-icon"
+                                                class="img-fluid"
+                                            />
+                                            <span class="d-block auther-name">Deveep</span>
+                                            <span class="d-block">CEO of Binorix</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="testimonials-content">
+                                        <h6>Testimonials</h6>
+                                        <h2>Happy Clients Feedback</h2>
+                                        <figure class="mb-0"></figure>
+                                        <div class="testimonials-inner-content">
+                                            <p>
+                                                I don't know you very well, but I must say that you are nice and always
+                                                try your best to make people happy. Your responses are informative and
+                                                helpful, and your friendly and professional demeanor makes it easy to
+                                                ask questions and seek assistance. Keep up the good work!
+                                            </p>
+                                            <br />
+                                            <img
+                                                style="border-radius: 100%; width: 90px; height: 90px"
+                                                src="assets/img/clients/deveep.webp"
+                                                alt="comma-icon"
+                                                class="img-fluid"
+                                            />
+                                            <span class="d-block auther-name">Deveep</span>
+                                            <span class="d-block">CEO of Binorix</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a
+                                class="carousel-control-prev"
+                                href="#carouselExampleControls"
+                                role="button"
+                                data-slide="prev"
+                            >
+                                <i class="fas fa-arrow-left d-flex align-items-center justify-content-center"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a
+                                class="carousel-control-next"
+                                href="#carouselExampleControls"
+                                role="button"
+                                data-slide="next"
+                            >
+                                <i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tastimonials section -->
+
+        <!-- form section -->
+        <section class="w-100 float-left form-main-con padding-top padding-bottom" id="contact">
+            <div class="container">
+                <div class="form-main-inner-con position-relative">
+                    <div class="generic-title text-center">
+                        <h6>Get in Touch</h6>
+                        <h2 class="mb-0">
+                            Any Questions? Feel Free<br />
+                            to Contact
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 order-lg-0 order-2">
+                            <div class="contact-information position-relative wow slideInLeft">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                            <img
+                                                src="assets/img/location-icon.png"
+                                                alt="location-icon"
+                                                class="img-fluid"
+                                            />
+                                        </figure>
+                                        <div class="contact-information-content">
+                                            <h5>Address:</h5>
+                                            <p class="mb-0">Jhanjhane-2, Sindhuli, Nepal</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                            <img
+                                                src="assets/img/message-icon.png"
+                                                alt="message-icon"
+                                                class="img-fluid"
+                                            />
+                                        </figure>
+                                        <div class="contact-information-content">
+                                            <h5>Email:</h5>
+                                            <p class="mb-0">ikittie@meropatra.com</p>
+                                            <p class="mb-0">birajrai.official@gmail.com</p>
+                                        </div>
+                                    </li>
+                                    <li class="mb-0">
+                                        <figure class="mb-0 d-flex align-items-center justify-content-center">
+                                            <img src="assets/img/phone-icon.png" alt="phone-icon" class="img-fluid" />
+                                        </figure>
+                                        <div class="contact-information-content">
+                                            <h5>Phone:</h5>
+                                            <p class="mb-0">+977-100</p>
+                                            <p class="mb-0">+977-912</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <form class="contact-form wow slideInRight text-lg-left text-center">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-group mb-0">
+                                            <input type="text" placeholder="Name" name="name" id="name" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-group mb-0">
+                                            <input type="email" placeholder="Email" />
+                                            <small id="emailHelp" class="form-text text-muted"></small>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-group mb-0">
+                                            <input type="tel" placeholder="Phone" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="form-group mb-0">
+                                            <input type="text" placeholder="Subject" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-0">
+                                            <textarea
+                                                placeholder="Message"
+                                                rows="3"
+                                                name="comments"
+                                                id="comments"
+                                            ></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="appointment-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- form section -->
+        <!-- weight footer section -->
+        <div class="w-100 float-left weight-footer-con position-relative">
+            <div class="container">
+                <div class="weight-footer-content text-center wow fadeInUp">
+                    <figure class="">
+                        <img src="assets/img/logo/footer.svg" alt="footer-logo" class="img-fluid" />
+                    </figure>
+                    <div class="footer-navbar">
+                        <ul class="list-unstyled">
+                            <li class="d-inline-block border-left-0 pl-0"><a href="#home">Home</a></li>
+                            <li class="d-inline-block"><a href="#about">About</a></li>
+                            <li class="d-inline-block"><a href="#services">Services</a></li>
+                            <li class="d-inline-block"><a href="#portfolio">Portfolio</a></li>
+                            <li class="d-inline-block"><a href="#testimonials">Testimonials</a></li>
+                            <li class="d-inline-block pr-0"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social-icon">
+                        <ul class="mb-0">
+                            <ul class="mb-0 list-unstyled">
+                                <ul class="mb-0 list-unstyled">
+                                    <li class="d-inline-block">
+                                        <a href="https://discord.gg/YwAk4pWSa2"
+                                            ><i
+                                                class="fab fa-discord d-flex align-items-center justify-content-center"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <a href="https://facebook.com/birajx2"
+                                            ><i
+                                                class="fab fa-facebook d-flex align-items-center justify-content-center"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <a href="https://www.youtube.com/@neppixel"
+                                            ><i
+                                                class="fab fa-youtube d-flex align-items-center justify-content-center"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copy-right-content text-center">
+                    <p class="mb-0">
+                        Copyright © 2023
+                        <a href="https://ihalloween.ml" target="_blank" rel="noopener noreferrer">iHalloween</a>. All
+                        rights reserved. This notice serves to protect the original work and any reproduction or
+                        distribution without express written permission is strictly prohibited.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a id="button"></a>
+        <div id="modalWPWAF" class="modal fade" tabindex="-1" style="display: none" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="far fa-times"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body service-model-content">
+                        <figure class="mb-0">
+                            <img
+                                src="assets/img/portfolio-model-img1.jfif"
+                                alt="portfolio-model-img1"
+                                class="img-fluid"
+                            />
+                        </figure>
+                        <h4>Kira</h4>
+                        <p class="mb-md-4 mb-2">
+                            A spigot plugin that helps staff with better quality of some life changes
+                        </p>
+                        <ul class="list-unstyled model-list mb-md-3 mb-2">
+                            <li><i class="fas fa-check-circle"></i> Compatibility: 1.8.8</li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>The commands are divided into two categories: Staff
+                                Commands and Player Commands.
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>Staff Commands require the operator (op) status and
+                                can be used by server staff to manage the server and its players. These commands include
+                                the ability to heal or feed a player, vanish or reveal oneself, equip Staff Items, and
+                                switch between all chat or staff-only chat.
+                            </li>
+
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Player Commands, on the other hand, can be used by all players on the server to interact
+                                with the game environment. One such command is the report command, which sends a message
+                                to all staff with information on the player being reported. This information includes
+                                the number of times the player has been reported, and staff can click on the message to
+                                teleport to the reported player.
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                In addition to commands, there are also Staff Items that can be used by staff members.
+                                These items include the Wand of Banning, which allows a staff member to ban a player by
+                                left-clicking on them, the Potion of Vanishing, which allows a staff member to vanish or
+                                reveal themselves by right-clicking, and the Clear Inventory item, which allows a staff
+                                member to clear their inventory by right-clicking.
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Overall, these commands and items provide an array of options for staff members to
+                                manage the server and its players, while also allowing players to interact with the game
+                                world in unique ways.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalWPWAF-icon" class="modal fade" tabindex="-1" style="display: none" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="far fa-times"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body service-model-content">
+                        <figure class="mb-0">
+                            <img
+                                src="assets/img/portfolio-model-img1.jfif"
+                                alt="portfolio-model-img1"
+                                class="img-fluid"
+                            />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modalporfolio3" class="modal fade" tabindex="-1" style="display: none" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="far fa-times"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body service-model-content">
+                        <figure class="mb-0">
+                            <img src="#" alt="portfolio-model-img1" class="img-fluid" />
+                        </figure>
+                        <h4>BetterUhc</h4>
+                        <p class="mb-md-4 mb-2">Automates UHC games on a dedicated 1.8 - 1.18 server.</p>
+                        <ul class="list-unstyled model-list mb-md-3 mb-2">
+                            <li>
+                                <i class="fas fa-check-circle"></i> To begin with, you will need a dedicated server that
+                                can support Minecraft gameplay. The server should have a strong CPU and plenty of RAM to
+                                handle the demands of running the game and the automation software. It is also important
+                                to choose a version of Minecraft that is compatible with the automation software and any
+                                plugins you plan to use. Versions 1.8 through 1.18 are currently the most popular for
+                                UHC games.
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>Next, you will need to install an automation plugin
+                                or custom program to manage the game rules and settings. Popular automation plugins for
+                                UHC games include Ultra Hardcore, UHC Core, and UHC Ultimate. These plugins allow you to
+                                customize the game world, distribute resources, and set other rules and conditions for
+                                gameplay.
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"
+                                    >Once the automation software is installed, you can create and manage UHC games
+                                    through the plugin's interface or custom program. This may involve setting up game
+                                    modes, creating teams, or customizing the shrinking of the game world. It is
+                                    important to thoroughly test the automation software before hosting any games to
+                                    ensure that everything runs smoothly and as intended.</i
+                                >
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"
+                                    >Finally, you may want to consider promoting your UHC server to attract players.
+                                    This can be done through social media or Minecraft server lists, and by creating
+                                    engaging and fun gameplay experiences for your players.</i
+                                >
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"
+                                    >Overall, setting up and running an automated UHC server requires careful planning
+                                    and attention to detail, but with the right tools and approach, it can provide an
+                                    exciting and engaging Minecraft gameplay experience for both players and server
+                                    administrators.
+                                </i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modalporfolio5" class="modal fade" tabindex="-1" style="display: none" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="far fa-times"></i></span>
+                        </button>
+                    </div>
+                    <div class="modal-body service-model-content">
+                        <figure class="mb-0">
+                            <img src="https://platex.tk/img/preview.png" alt="portfolio-model-img1" class="img-fluid" />
+                        </figure>
+                        <h4>Platex</h4>
+                        <p class="mb-4">
+                            For a movie streaming website, create a well-designed homepage, detailed watching pages,
+                            sorting options, search function, user authentication, and additional features like
+                            bookmarking and commenting.
+                        </p>
+                        <ul class="list-unstyled model-list mb-md-3 mb-2">
+                            <li>
+                                <i class="fas fa-check-circle"></i> Well-Designed Homepage: The homepage should provide
+                                an overview of the website's content, including recently added movies, popular movies,
+                                and categories of movies.
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>Detail/Watching Pages: Each movie should have its own
+                                detail page with a synopsis, cast and crew information, and user reviews. The watching
+                                page should provide a high-quality streaming experience.
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>Sort/Filter: Users should be able to sort and filter
+                                movie listings based on criteria such as genre, release date, and rating.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- weight footer section -->
+        <script src="assets/dist/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="assets/dist/jquery.min.js"></script>
+        <script src="assets/dist/popper.min.js"></script>
+        <script src="assets/dist/bootstrap.min.js"></script>
+        <script src="assets/dist/script.min.js"></script>
+        <script>
+            filterSelection('all');
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName('filterDiv');
+                if (c == 'all') c = '';
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], 'show');
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], 'show');
+                }
+            }
+
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(' ');
+                arr2 = name.split(' ');
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {
+                        element.className += ' ' + arr2[i];
+                    }
+                }
+            }
+
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(' ');
+                arr2 = name.split(' ');
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(' ');
+            }
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById('myBtnContainer');
+            var btns = btnContainer.getElementsByClassName('btn');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener('click', function () {
+                    var current = document.getElementsByClassName('active');
+                    current[0].className = current[0].className.replace(' active', '');
+                    this.className += ' active';
+                });
+            }
+        </script>
+        <script>
+            var btn = $('#button');
+
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 300) {
+                    btn.addClass('show');
+                } else {
+                    btn.removeClass('show');
+                }
+            });
+
+            btn.on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({ scrollTop: 0 }, '300');
+            });
+        </script>
+        <script>
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 113) {
+                    $('header').addClass('fixed-header');
+                    $('.banner-main-con').addClass('banner-main-con2');
+                } else {
+                    $('header').removeClass('fixed-header');
+                    $('.banner-main-con').removeClass('banner-main-con2');
+                }
+            });
+        </script>
+        <script>
+            document.querySelectorAll('.nav-item a').forEach(function (link, index) {
+                link.addEventListener('click', function () {
+                    if (this.classList.contains('is-active')) {
+                        this.classList.remove('is-active');
+                    } else {
+                        const activeLink = document.querySelector('a.is-active'); // **
+
+                        if (activeLink) {
+                            // **
+
+                            activeLink.classList.remove('is-active'); // **
+                        } // **
+
+                        this.classList.add('is-active');
+                    }
+                });
+            });
+
+            document.querySelectorAll('#myBtnContainer button').forEach(function (link, index) {
+                link.addEventListener('click', function () {
+                    if (this.classList.contains('active_button')) {
+                        this.classList.remove('active_button');
+                    } else {
+                        const activeLink = document.querySelector('#myBtnContainer button.active_button'); // **
+
+                        if (activeLink) {
+                            // **
+
+                            activeLink.classList.remove('active_button'); // **
+                        } // **
+
+                        this.classList.add('active_button');
+                    }
+                });
+            });
+        </script>
+        <script>
+            function downloadImage() {
+                source = 'assets/img/cv-img.png';
+                const fileName = 'test-image.png';
+                var el = document.createElement('a');
+                el.setAttribute('href', source);
+                el.setAttribute('download', fileName);
+                document.body.appendChild(el);
+                el.click();
+                el.remove();
+            }
+        </script>
     </body>
 </html>
