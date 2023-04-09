@@ -4,8 +4,7 @@
     "DomainName": "birajrai.github.io",
     "Root": "./",
     "IncludeExt": [
-      ".html",
-      ".php"
+      ".html"
     ],
     "Exclude": [],
     "TagsToInclude": [
